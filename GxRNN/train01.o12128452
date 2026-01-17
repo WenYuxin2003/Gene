@@ -1,0 +1,508 @@
+Tue Oct 21 18:31:16 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.154.05             Driver Version: 535.154.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:41:00.0 Off |                    0 |
+| N/A   42C    P0              54W / 400W |      0MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+2.1.0+cu121 True
+
+
+Training Information:
+Epoch: 1 / 450, loss: 1.490, Total: 1376, valid: 2 (0.15), unique: 2 (100.00), Similarity: 0.082
+Epoch: 2 / 450, loss: 0.684, Total: 1376, valid: 54 (3.92), unique: 54 (100.00), Similarity: 0.125
+Epoch: 3 / 450, loss: 0.449, Total: 1376, valid: 317 (23.04), unique: 315 (99.37), Similarity: 0.155
+Epoch: 4 / 450, loss: 0.365, Total: 1376, valid: 464 (33.72), unique: 454 (97.84), Similarity: 0.167
+Epoch: 5 / 450, loss: 0.322, Total: 1376, valid: 612 (44.48), unique: 606 (99.02), Similarity: 0.156
+Epoch: 6 / 450, loss: 0.295, Total: 1376, valid: 799 (58.07), unique: 762 (95.37), Similarity: 0.172
+Epoch: 7 / 450, loss: 0.274, Total: 1376, valid: 860 (62.50), unique: 791 (91.98), Similarity: 0.179
+Epoch: 8 / 450, loss: 0.258, Total: 1376, valid: 879 (63.88), unique: 807 (91.81), Similarity: 0.181
+Epoch: 9 / 450, loss: 0.245, Total: 1376, valid: 939 (68.24), unique: 863 (91.91), Similarity: 0.179
+Epoch: 10 / 450, loss: 0.232, Total: 1376, valid: 1030 (74.85), unique: 905 (87.86), Similarity: 0.177
+Epoch: 11 / 450, loss: 0.222, Total: 1376, valid: 1042 (75.73), unique: 971 (93.19), Similarity: 0.174
+Epoch: 12 / 450, loss: 0.213, Total: 1376, valid: 1082 (78.63), unique: 985 (91.04), Similarity: 0.180
+Epoch: 13 / 450, loss: 0.204, Total: 1376, valid: 1089 (79.14), unique: 990 (90.91), Similarity: 0.186
+Epoch: 14 / 450, loss: 0.196, Total: 1376, valid: 1104 (80.23), unique: 987 (89.40), Similarity: 0.182
+Epoch: 15 / 450, loss: 0.188, Total: 1376, valid: 1088 (79.07), unique: 948 (87.13), Similarity: 0.182
+Epoch: 16 / 450, loss: 0.181, Total: 1376, valid: 1127 (81.90), unique: 1001 (88.82), Similarity: 0.180
+Epoch: 17 / 450, loss: 0.173, Total: 1376, valid: 1156 (84.01), unique: 1025 (88.67), Similarity: 0.176
+Epoch: 18 / 450, loss: 0.168, Total: 1376, valid: 1140 (82.85), unique: 992 (87.02), Similarity: 0.179
+Epoch: 19 / 450, loss: 0.162, Total: 1376, valid: 1155 (83.94), unique: 1013 (87.71), Similarity: 0.176
+Epoch: 20 / 450, loss: 0.158, Total: 1376, valid: 1187 (86.26), unique: 1022 (86.10), Similarity: 0.179
+Epoch: 21 / 450, loss: 0.153, Total: 1376, valid: 1182 (85.90), unique: 1006 (85.11), Similarity: 0.183
+Epoch: 22 / 450, loss: 0.149, Total: 1376, valid: 1199 (87.14), unique: 1014 (84.57), Similarity: 0.182
+Epoch: 23 / 450, loss: 0.145, Total: 1376, valid: 1190 (86.48), unique: 998 (83.87), Similarity: 0.184
+Epoch: 24 / 450, loss: 0.140, Total: 1376, valid: 1206 (87.65), unique: 1035 (85.82), Similarity: 0.186
+Epoch: 25 / 450, loss: 0.137, Total: 1376, valid: 1238 (89.97), unique: 1035 (83.60), Similarity: 0.187
+Epoch: 26 / 450, loss: 0.135, Total: 1376, valid: 1236 (89.83), unique: 1042 (84.30), Similarity: 0.184
+Epoch: 27 / 450, loss: 0.132, Total: 1376, valid: 1246 (90.55), unique: 1012 (81.22), Similarity: 0.191
+Epoch: 28 / 450, loss: 0.129, Total: 1376, valid: 1261 (91.64), unique: 1035 (82.08), Similarity: 0.185
+Epoch: 29 / 450, loss: 0.127, Total: 1376, valid: 1249 (90.77), unique: 1031 (82.55), Similarity: 0.184
+Epoch: 30 / 450, loss: 0.124, Total: 1376, valid: 1251 (90.92), unique: 1023 (81.77), Similarity: 0.185
+Epoch: 31 / 450, loss: 0.123, Total: 1376, valid: 1256 (91.28), unique: 1024 (81.53), Similarity: 0.187
+Epoch: 32 / 450, loss: 0.122, Total: 1376, valid: 1255 (91.21), unique: 1029 (81.99), Similarity: 0.189
+Epoch: 33 / 450, loss: 0.120, Total: 1376, valid: 1269 (92.22), unique: 1045 (82.35), Similarity: 0.189
+Epoch: 34 / 450, loss: 0.118, Total: 1376, valid: 1281 (93.10), unique: 1035 (80.80), Similarity: 0.191
+Epoch: 35 / 450, loss: 0.116, Total: 1376, valid: 1301 (94.55), unique: 1033 (79.40), Similarity: 0.191
+Epoch: 36 / 450, loss: 0.117, Total: 1376, valid: 1276 (92.73), unique: 1061 (83.15), Similarity: 0.190
+Epoch: 37 / 450, loss: 0.114, Total: 1376, valid: 1296 (94.19), unique: 1030 (79.48), Similarity: 0.194
+Epoch: 38 / 450, loss: 0.113, Total: 1376, valid: 1297 (94.26), unique: 1057 (81.50), Similarity: 0.195
+Epoch: 39 / 450, loss: 0.112, Total: 1376, valid: 1290 (93.75), unique: 1036 (80.31), Similarity: 0.195
+Epoch: 40 / 450, loss: 0.110, Total: 1376, valid: 1310 (95.20), unique: 1049 (80.08), Similarity: 0.187
+Epoch: 41 / 450, loss: 0.109, Total: 1376, valid: 1309 (95.13), unique: 1031 (78.76), Similarity: 0.192
+Epoch: 42 / 450, loss: 0.109, Total: 1376, valid: 1295 (94.11), unique: 1046 (80.77), Similarity: 0.196
+Epoch: 43 / 450, loss: 0.108, Total: 1376, valid: 1279 (92.95), unique: 1032 (80.69), Similarity: 0.186
+Epoch: 44 / 450, loss: 0.110, Total: 1376, valid: 1307 (94.99), unique: 1043 (79.80), Similarity: 0.196
+Epoch: 45 / 450, loss: 0.107, Total: 1376, valid: 1264 (91.86), unique: 1034 (81.80), Similarity: 0.201
+Epoch: 46 / 450, loss: 0.110, Total: 1376, valid: 1313 (95.42), unique: 1067 (81.26), Similarity: 0.194
+Epoch: 47 / 450, loss: 0.106, Total: 1376, valid: 1307 (94.99), unique: 1029 (78.73), Similarity: 0.196
+Epoch: 48 / 450, loss: 0.104, Total: 1376, valid: 1306 (94.91), unique: 1045 (80.02), Similarity: 0.201
+Epoch: 49 / 450, loss: 0.102, Total: 1376, valid: 1317 (95.71), unique: 1050 (79.73), Similarity: 0.191
+Epoch: 50 / 450, loss: 0.102, Total: 1376, valid: 1325 (96.29), unique: 1077 (81.28), Similarity: 0.200
+Epoch: 51 / 450, loss: 0.102, Total: 1376, valid: 1311 (95.28), unique: 1075 (82.00), Similarity: 0.192
+Epoch: 52 / 450, loss: 0.102, Total: 1376, valid: 1299 (94.40), unique: 1026 (78.98), Similarity: 0.196
+Epoch: 53 / 450, loss: 0.100, Total: 1376, valid: 1324 (96.22), unique: 1062 (80.21), Similarity: 0.196
+Epoch: 54 / 450, loss: 0.101, Total: 1376, valid: 1314 (95.49), unique: 1049 (79.83), Similarity: 0.197
+Epoch: 55 / 450, loss: 0.099, Total: 1376, valid: 1323 (96.15), unique: 1061 (80.20), Similarity: 0.197
+Epoch: 56 / 450, loss: 0.099, Total: 1376, valid: 1339 (97.31), unique: 1075 (80.28), Similarity: 0.200
+Epoch: 57 / 450, loss: 0.098, Total: 1376, valid: 1323 (96.15), unique: 1052 (79.52), Similarity: 0.197
+Epoch: 58 / 450, loss: 0.098, Total: 1376, valid: 1328 (96.51), unique: 1051 (79.14), Similarity: 0.201
+Epoch: 59 / 450, loss: 0.098, Total: 1376, valid: 1322 (96.08), unique: 1062 (80.33), Similarity: 0.202
+Epoch: 60 / 450, loss: 0.096, Total: 1376, valid: 1334 (96.95), unique: 1063 (79.69), Similarity: 0.201
+Epoch: 61 / 450, loss: 0.096, Total: 1376, valid: 1334 (96.95), unique: 1050 (78.71), Similarity: 0.195
+Epoch: 62 / 450, loss: 0.095, Total: 1376, valid: 1330 (96.66), unique: 1064 (80.00), Similarity: 0.200
+Epoch: 63 / 450, loss: 0.095, Total: 1376, valid: 1336 (97.09), unique: 1097 (82.11), Similarity: 0.200
+Epoch: 64 / 450, loss: 0.094, Total: 1376, valid: 1321 (96.00), unique: 1048 (79.33), Similarity: 0.196
+Epoch: 65 / 450, loss: 0.094, Total: 1376, valid: 1329 (96.58), unique: 1053 (79.23), Similarity: 0.199
+Epoch: 66 / 450, loss: 0.094, Total: 1376, valid: 1317 (95.71), unique: 1031 (78.28), Similarity: 0.203
+Epoch: 67 / 450, loss: 0.093, Total: 1376, valid: 1329 (96.58), unique: 1042 (78.40), Similarity: 0.205
+Epoch: 68 / 450, loss: 0.093, Total: 1376, valid: 1340 (97.38), unique: 1079 (80.52), Similarity: 0.201
+Epoch: 69 / 450, loss: 0.093, Total: 1376, valid: 1317 (95.71), unique: 1051 (79.80), Similarity: 0.205
+Epoch: 70 / 450, loss: 0.093, Total: 1376, valid: 1335 (97.02), unique: 1078 (80.75), Similarity: 0.202
+Epoch: 71 / 450, loss: 0.092, Total: 1376, valid: 1334 (96.95), unique: 1081 (81.03), Similarity: 0.207
+Epoch: 72 / 450, loss: 0.092, Total: 1376, valid: 1333 (96.88), unique: 1067 (80.05), Similarity: 0.202
+Epoch: 73 / 450, loss: 0.091, Total: 1376, valid: 1328 (96.51), unique: 1058 (79.67), Similarity: 0.202
+Epoch: 74 / 450, loss: 0.089, Total: 1376, valid: 1345 (97.75), unique: 1095 (81.41), Similarity: 0.204
+Epoch: 75 / 450, loss: 0.089, Total: 1376, valid: 1334 (96.95), unique: 1079 (80.88), Similarity: 0.204
+Epoch: 76 / 450, loss: 0.089, Total: 1376, valid: 1337 (97.17), unique: 1082 (80.93), Similarity: 0.207
+Epoch: 77 / 450, loss: 0.089, Total: 1376, valid: 1337 (97.17), unique: 1071 (80.10), Similarity: 0.206
+Epoch: 78 / 450, loss: 0.089, Total: 1376, valid: 1333 (96.88), unique: 1072 (80.42), Similarity: 0.206
+Epoch: 79 / 450, loss: 0.088, Total: 1376, valid: 1329 (96.58), unique: 1072 (80.66), Similarity: 0.205
+Epoch: 80 / 450, loss: 0.087, Total: 1376, valid: 1337 (97.17), unique: 1068 (79.88), Similarity: 0.207
+Epoch: 81 / 450, loss: 0.087, Total: 1376, valid: 1336 (97.09), unique: 1066 (79.79), Similarity: 0.203
+Epoch: 82 / 450, loss: 0.087, Total: 1376, valid: 1346 (97.82), unique: 1066 (79.20), Similarity: 0.205
+Epoch: 83 / 450, loss: 0.087, Total: 1376, valid: 1339 (97.31), unique: 1065 (79.54), Similarity: 0.204
+Epoch: 84 / 450, loss: 0.091, Total: 1376, valid: 1313 (95.42), unique: 1062 (80.88), Similarity: 0.207
+Epoch: 85 / 450, loss: 0.090, Total: 1376, valid: 1328 (96.51), unique: 1059 (79.74), Similarity: 0.213
+Epoch: 86 / 450, loss: 0.087, Total: 1376, valid: 1351 (98.18), unique: 1093 (80.90), Similarity: 0.207
+Epoch: 87 / 450, loss: 0.086, Total: 1376, valid: 1343 (97.60), unique: 1057 (78.70), Similarity: 0.208
+Epoch: 88 / 450, loss: 0.084, Total: 1376, valid: 1343 (97.60), unique: 1069 (79.60), Similarity: 0.203
+Epoch: 89 / 450, loss: 0.084, Total: 1376, valid: 1344 (97.67), unique: 1081 (80.43), Similarity: 0.209
+Epoch: 90 / 450, loss: 0.084, Total: 1376, valid: 1351 (98.18), unique: 1085 (80.31), Similarity: 0.216
+Epoch: 91 / 450, loss: 0.084, Total: 1376, valid: 1347 (97.89), unique: 1078 (80.03), Similarity: 0.211
+Epoch: 92 / 450, loss: 0.083, Total: 1376, valid: 1355 (98.47), unique: 1079 (79.63), Similarity: 0.213
+Epoch: 93 / 450, loss: 0.083, Total: 1376, valid: 1348 (97.97), unique: 1077 (79.90), Similarity: 0.204
+Epoch: 94 / 450, loss: 0.083, Total: 1376, valid: 1351 (98.18), unique: 1072 (79.35), Similarity: 0.214
+Epoch: 95 / 450, loss: 0.082, Total: 1376, valid: 1341 (97.46), unique: 1078 (80.39), Similarity: 0.212
+Epoch: 96 / 450, loss: 0.082, Total: 1376, valid: 1348 (97.97), unique: 1087 (80.64), Similarity: 0.212
+Epoch: 97 / 450, loss: 0.082, Total: 1376, valid: 1345 (97.75), unique: 1084 (80.59), Similarity: 0.204
+Epoch: 98 / 450, loss: 0.081, Total: 1376, valid: 1341 (97.46), unique: 1083 (80.76), Similarity: 0.215
+Epoch: 99 / 450, loss: 0.082, Total: 1376, valid: 1345 (97.75), unique: 1067 (79.33), Similarity: 0.212
+Epoch: 100 / 450, loss: 0.082, Total: 1376, valid: 1345 (97.75), unique: 1073 (79.78), Similarity: 0.208
+Epoch: 101 / 450, loss: 0.081, Total: 1376, valid: 1347 (97.89), unique: 1093 (81.14), Similarity: 0.215
+Epoch: 102 / 450, loss: 0.081, Total: 1376, valid: 1360 (98.84), unique: 1100 (80.88), Similarity: 0.210
+Epoch: 103 / 450, loss: 0.081, Total: 1376, valid: 1351 (98.18), unique: 1087 (80.46), Similarity: 0.211
+Epoch: 104 / 450, loss: 0.080, Total: 1376, valid: 1349 (98.04), unique: 1083 (80.28), Similarity: 0.209
+Epoch: 105 / 450, loss: 0.080, Total: 1376, valid: 1351 (98.18), unique: 1072 (79.35), Similarity: 0.211
+Epoch: 106 / 450, loss: 0.080, Total: 1376, valid: 1347 (97.89), unique: 1110 (82.41), Similarity: 0.200
+Epoch: 107 / 450, loss: 0.080, Total: 1376, valid: 1359 (98.76), unique: 1074 (79.03), Similarity: 0.214
+Epoch: 108 / 450, loss: 0.079, Total: 1376, valid: 1355 (98.47), unique: 1103 (81.40), Similarity: 0.216
+Epoch: 109 / 450, loss: 0.079, Total: 1376, valid: 1356 (98.55), unique: 1074 (79.20), Similarity: 0.214
+Epoch: 110 / 450, loss: 0.079, Total: 1376, valid: 1355 (98.47), unique: 1060 (78.23), Similarity: 0.214
+Epoch: 111 / 450, loss: 0.080, Total: 1376, valid: 1348 (97.97), unique: 1084 (80.42), Similarity: 0.206
+Epoch: 112 / 450, loss: 0.079, Total: 1376, valid: 1359 (98.76), unique: 1080 (79.47), Similarity: 0.210
+Epoch: 113 / 450, loss: 0.078, Total: 1376, valid: 1342 (97.53), unique: 1105 (82.34), Similarity: 0.207
+Epoch: 114 / 450, loss: 0.078, Total: 1376, valid: 1351 (98.18), unique: 1096 (81.13), Similarity: 0.214
+Epoch: 115 / 450, loss: 0.077, Total: 1376, valid: 1340 (97.38), unique: 1038 (77.46), Similarity: 0.213
+Epoch: 116 / 450, loss: 0.078, Total: 1376, valid: 1364 (99.13), unique: 1092 (80.06), Similarity: 0.210
+Epoch: 117 / 450, loss: 0.076, Total: 1376, valid: 1358 (98.69), unique: 1081 (79.60), Similarity: 0.213
+Epoch: 118 / 450, loss: 0.077, Total: 1376, valid: 1351 (98.18), unique: 1083 (80.16), Similarity: 0.214
+Epoch: 119 / 450, loss: 0.076, Total: 1376, valid: 1352 (98.26), unique: 1072 (79.29), Similarity: 0.218
+Epoch: 120 / 450, loss: 0.076, Total: 1376, valid: 1346 (97.82), unique: 1070 (79.49), Similarity: 0.219
+Epoch: 121 / 450, loss: 0.077, Total: 1376, valid: 1354 (98.40), unique: 1078 (79.62), Similarity: 0.213
+Epoch: 122 / 450, loss: 0.076, Total: 1376, valid: 1348 (97.97), unique: 1102 (81.75), Similarity: 0.216
+Epoch: 123 / 450, loss: 0.076, Total: 1376, valid: 1365 (99.20), unique: 1098 (80.44), Similarity: 0.214
+Epoch: 124 / 450, loss: 0.074, Total: 1376, valid: 1354 (98.40), unique: 1069 (78.95), Similarity: 0.218
+Epoch: 125 / 450, loss: 0.075, Total: 1376, valid: 1360 (98.84), unique: 1083 (79.63), Similarity: 0.219
+Epoch: 126 / 450, loss: 0.075, Total: 1376, valid: 1351 (98.18), unique: 1051 (77.79), Similarity: 0.221
+Epoch: 127 / 450, loss: 0.074, Total: 1376, valid: 1356 (98.55), unique: 1089 (80.31), Similarity: 0.217
+Epoch: 128 / 450, loss: 0.074, Total: 1376, valid: 1363 (99.06), unique: 1087 (79.75), Similarity: 0.215
+Epoch: 129 / 450, loss: 0.074, Total: 1376, valid: 1361 (98.91), unique: 1102 (80.97), Similarity: 0.213
+Epoch: 130 / 450, loss: 0.074, Total: 1376, valid: 1359 (98.76), unique: 1078 (79.32), Similarity: 0.214
+Epoch: 131 / 450, loss: 0.078, Total: 1376, valid: 1340 (97.38), unique: 1091 (81.42), Similarity: 0.214
+Epoch: 132 / 450, loss: 0.075, Total: 1376, valid: 1356 (98.55), unique: 1081 (79.72), Similarity: 0.216
+Epoch: 133 / 450, loss: 0.074, Total: 1376, valid: 1359 (98.76), unique: 1089 (80.13), Similarity: 0.211
+Epoch: 134 / 450, loss: 0.073, Total: 1376, valid: 1350 (98.11), unique: 1078 (79.85), Similarity: 0.220
+Epoch: 135 / 450, loss: 0.073, Total: 1376, valid: 1359 (98.76), unique: 1089 (80.13), Similarity: 0.216
+Epoch: 136 / 450, loss: 0.073, Total: 1376, valid: 1361 (98.91), unique: 1096 (80.53), Similarity: 0.213
+Epoch: 137 / 450, loss: 0.072, Total: 1376, valid: 1351 (98.18), unique: 1074 (79.50), Similarity: 0.217
+Epoch: 138 / 450, loss: 0.072, Total: 1376, valid: 1350 (98.11), unique: 1090 (80.74), Similarity: 0.216
+Epoch: 139 / 450, loss: 0.072, Total: 1376, valid: 1354 (98.40), unique: 1076 (79.47), Similarity: 0.215
+Epoch: 140 / 450, loss: 0.072, Total: 1376, valid: 1353 (98.33), unique: 1082 (79.97), Similarity: 0.218
+Epoch: 141 / 450, loss: 0.072, Total: 1376, valid: 1354 (98.40), unique: 1088 (80.35), Similarity: 0.217
+Epoch: 142 / 450, loss: 0.072, Total: 1376, valid: 1337 (97.17), unique: 1069 (79.96), Similarity: 0.217
+Epoch: 143 / 450, loss: 0.080, Total: 1376, valid: 1342 (97.53), unique: 1077 (80.25), Similarity: 0.218
+Epoch: 144 / 450, loss: 0.074, Total: 1376, valid: 1357 (98.62), unique: 1105 (81.43), Similarity: 0.220
+Epoch: 145 / 450, loss: 0.071, Total: 1376, valid: 1362 (98.98), unique: 1089 (79.96), Similarity: 0.219
+Epoch: 146 / 450, loss: 0.071, Total: 1376, valid: 1360 (98.84), unique: 1102 (81.03), Similarity: 0.221
+Epoch: 147 / 450, loss: 0.070, Total: 1376, valid: 1359 (98.76), unique: 1102 (81.09), Similarity: 0.221
+Epoch: 148 / 450, loss: 0.070, Total: 1376, valid: 1360 (98.84), unique: 1073 (78.90), Similarity: 0.217
+Epoch: 149 / 450, loss: 0.071, Total: 1376, valid: 1357 (98.62), unique: 1089 (80.25), Similarity: 0.220
+Epoch: 150 / 450, loss: 0.070, Total: 1376, valid: 1363 (99.06), unique: 1076 (78.94), Similarity: 0.217
+Epoch: 151 / 450, loss: 0.070, Total: 1376, valid: 1366 (99.27), unique: 1080 (79.06), Similarity: 0.214
+Epoch: 152 / 450, loss: 0.070, Total: 1376, valid: 1352 (98.26), unique: 1068 (78.99), Similarity: 0.217
+Epoch: 153 / 450, loss: 0.070, Total: 1376, valid: 1359 (98.76), unique: 1074 (79.03), Similarity: 0.220
+Epoch: 154 / 450, loss: 0.069, Total: 1376, valid: 1355 (98.47), unique: 1095 (80.81), Similarity: 0.215
+Epoch: 155 / 450, loss: 0.069, Total: 1376, valid: 1359 (98.76), unique: 1086 (79.91), Similarity: 0.220
+Epoch: 156 / 450, loss: 0.070, Total: 1376, valid: 1355 (98.47), unique: 1090 (80.44), Similarity: 0.220
+Epoch: 157 / 450, loss: 0.070, Total: 1376, valid: 1359 (98.76), unique: 1104 (81.24), Similarity: 0.219
+Epoch: 158 / 450, loss: 0.070, Total: 1376, valid: 1359 (98.76), unique: 1087 (79.99), Similarity: 0.215
+Epoch: 159 / 450, loss: 0.069, Total: 1376, valid: 1355 (98.47), unique: 1075 (79.34), Similarity: 0.221
+Epoch: 160 / 450, loss: 0.069, Total: 1376, valid: 1362 (98.98), unique: 1087 (79.81), Similarity: 0.211
+Epoch: 161 / 450, loss: 0.069, Total: 1376, valid: 1353 (98.33), unique: 1077 (79.60), Similarity: 0.216
+Epoch: 162 / 450, loss: 0.069, Total: 1376, valid: 1358 (98.69), unique: 1088 (80.12), Similarity: 0.222
+Epoch: 163 / 450, loss: 0.069, Total: 1376, valid: 1360 (98.84), unique: 1085 (79.78), Similarity: 0.221
+Epoch: 164 / 450, loss: 0.068, Total: 1376, valid: 1353 (98.33), unique: 1093 (80.78), Similarity: 0.219
+Epoch: 165 / 450, loss: 0.068, Total: 1376, valid: 1356 (98.55), unique: 1082 (79.79), Similarity: 0.217
+Epoch: 166 / 450, loss: 0.068, Total: 1376, valid: 1359 (98.76), unique: 1101 (81.02), Similarity: 0.220
+Epoch: 167 / 450, loss: 0.068, Total: 1376, valid: 1357 (98.62), unique: 1072 (79.00), Similarity: 0.226
+Epoch: 168 / 450, loss: 0.068, Total: 1376, valid: 1362 (98.98), unique: 1076 (79.00), Similarity: 0.221
+Epoch: 169 / 450, loss: 0.068, Total: 1376, valid: 1359 (98.76), unique: 1078 (79.32), Similarity: 0.220
+Epoch: 170 / 450, loss: 0.067, Total: 1376, valid: 1365 (99.20), unique: 1070 (78.39), Similarity: 0.221
+Epoch: 171 / 450, loss: 0.067, Total: 1376, valid: 1359 (98.76), unique: 1079 (79.40), Similarity: 0.220
+Epoch: 172 / 450, loss: 0.067, Total: 1376, valid: 1360 (98.84), unique: 1089 (80.07), Similarity: 0.221
+Epoch: 173 / 450, loss: 0.067, Total: 1376, valid: 1367 (99.35), unique: 1058 (77.40), Similarity: 0.223
+Epoch: 174 / 450, loss: 0.067, Total: 1376, valid: 1359 (98.76), unique: 1080 (79.47), Similarity: 0.218
+Epoch: 175 / 450, loss: 0.067, Total: 1376, valid: 1360 (98.84), unique: 1075 (79.04), Similarity: 0.229
+Epoch: 176 / 450, loss: 0.067, Total: 1376, valid: 1360 (98.84), unique: 1080 (79.41), Similarity: 0.222
+Epoch: 177 / 450, loss: 0.066, Total: 1376, valid: 1353 (98.33), unique: 1062 (78.49), Similarity: 0.223
+Epoch: 178 / 450, loss: 0.067, Total: 1376, valid: 1368 (99.42), unique: 1083 (79.17), Similarity: 0.224
+Epoch: 179 / 450, loss: 0.067, Total: 1376, valid: 1358 (98.69), unique: 1106 (81.44), Similarity: 0.227
+Epoch: 180 / 450, loss: 0.067, Total: 1376, valid: 1359 (98.76), unique: 1101 (81.02), Similarity: 0.223
+Epoch: 181 / 450, loss: 0.067, Total: 1376, valid: 1359 (98.76), unique: 1083 (79.69), Similarity: 0.223
+Epoch: 182 / 450, loss: 0.066, Total: 1376, valid: 1354 (98.40), unique: 1081 (79.84), Similarity: 0.225
+Epoch: 183 / 450, loss: 0.066, Total: 1376, valid: 1365 (99.20), unique: 1074 (78.68), Similarity: 0.226
+Epoch: 184 / 450, loss: 0.065, Total: 1376, valid: 1365 (99.20), unique: 1084 (79.41), Similarity: 0.222
+Epoch: 185 / 450, loss: 0.065, Total: 1376, valid: 1360 (98.84), unique: 1087 (79.93), Similarity: 0.226
+Epoch: 186 / 450, loss: 0.065, Total: 1376, valid: 1362 (98.98), unique: 1090 (80.03), Similarity: 0.225
+Epoch: 187 / 450, loss: 0.065, Total: 1376, valid: 1358 (98.69), unique: 1074 (79.09), Similarity: 0.224
+Epoch: 188 / 450, loss: 0.066, Total: 1376, valid: 1360 (98.84), unique: 1079 (79.34), Similarity: 0.226
+Epoch: 189 / 450, loss: 0.065, Total: 1376, valid: 1362 (98.98), unique: 1092 (80.18), Similarity: 0.227
+Epoch: 190 / 450, loss: 0.065, Total: 1376, valid: 1356 (98.55), unique: 1103 (81.34), Similarity: 0.225
+Epoch: 191 / 450, loss: 0.066, Total: 1376, valid: 1359 (98.76), unique: 1074 (79.03), Similarity: 0.225
+Epoch: 192 / 450, loss: 0.065, Total: 1376, valid: 1357 (98.62), unique: 1098 (80.91), Similarity: 0.223
+Epoch: 193 / 450, loss: 0.064, Total: 1376, valid: 1353 (98.33), unique: 1082 (79.97), Similarity: 0.227
+Epoch: 194 / 450, loss: 0.064, Total: 1376, valid: 1362 (98.98), unique: 1072 (78.71), Similarity: 0.220
+Epoch: 195 / 450, loss: 0.064, Total: 1376, valid: 1363 (99.06), unique: 1064 (78.06), Similarity: 0.227
+Epoch: 196 / 450, loss: 0.064, Total: 1376, valid: 1357 (98.62), unique: 1080 (79.59), Similarity: 0.228
+Epoch: 197 / 450, loss: 0.066, Total: 1376, valid: 1361 (98.91), unique: 1090 (80.09), Similarity: 0.223
+Epoch: 198 / 450, loss: 0.064, Total: 1376, valid: 1364 (99.13), unique: 1082 (79.33), Similarity: 0.224
+Epoch: 199 / 450, loss: 0.064, Total: 1376, valid: 1366 (99.27), unique: 1085 (79.43), Similarity: 0.227
+Epoch: 200 / 450, loss: 0.063, Total: 1376, valid: 1357 (98.62), unique: 1049 (77.30), Similarity: 0.224
+Epoch: 201 / 450, loss: 0.063, Total: 1376, valid: 1361 (98.91), unique: 1078 (79.21), Similarity: 0.226
+Epoch: 202 / 450, loss: 0.063, Total: 1376, valid: 1359 (98.76), unique: 1080 (79.47), Similarity: 0.223
+Epoch: 203 / 450, loss: 0.063, Total: 1376, valid: 1362 (98.98), unique: 1073 (78.78), Similarity: 0.233
+Epoch: 204 / 450, loss: 0.063, Total: 1376, valid: 1362 (98.98), unique: 1074 (78.85), Similarity: 0.223
+Epoch: 205 / 450, loss: 0.063, Total: 1376, valid: 1363 (99.06), unique: 1062 (77.92), Similarity: 0.226
+Epoch: 206 / 450, loss: 0.063, Total: 1376, valid: 1369 (99.49), unique: 1060 (77.43), Similarity: 0.230
+Epoch: 207 / 450, loss: 0.063, Total: 1376, valid: 1366 (99.27), unique: 1100 (80.53), Similarity: 0.229
+Epoch: 208 / 450, loss: 0.062, Total: 1376, valid: 1361 (98.91), unique: 1093 (80.31), Similarity: 0.226
+Epoch: 209 / 450, loss: 0.062, Total: 1376, valid: 1365 (99.20), unique: 1089 (79.78), Similarity: 0.225
+Epoch: 210 / 450, loss: 0.063, Total: 1376, valid: 1361 (98.91), unique: 1069 (78.55), Similarity: 0.230
+Epoch: 211 / 450, loss: 0.064, Total: 1376, valid: 1358 (98.69), unique: 1080 (79.53), Similarity: 0.229
+Epoch: 212 / 450, loss: 0.063, Total: 1376, valid: 1362 (98.98), unique: 1078 (79.15), Similarity: 0.225
+Epoch: 213 / 450, loss: 0.062, Total: 1376, valid: 1363 (99.06), unique: 1090 (79.97), Similarity: 0.232
+Epoch: 214 / 450, loss: 0.062, Total: 1376, valid: 1364 (99.13), unique: 1060 (77.71), Similarity: 0.229
+Epoch: 215 / 450, loss: 0.062, Total: 1376, valid: 1364 (99.13), unique: 1088 (79.77), Similarity: 0.228
+Epoch: 216 / 450, loss: 0.062, Total: 1376, valid: 1358 (98.69), unique: 1080 (79.53), Similarity: 0.229
+Epoch: 217 / 450, loss: 0.061, Total: 1376, valid: 1360 (98.84), unique: 1075 (79.04), Similarity: 0.227
+Epoch: 218 / 450, loss: 0.061, Total: 1376, valid: 1362 (98.98), unique: 1074 (78.85), Similarity: 0.222
+Epoch: 219 / 450, loss: 0.061, Total: 1376, valid: 1357 (98.62), unique: 1101 (81.13), Similarity: 0.229
+Epoch: 220 / 450, loss: 0.061, Total: 1376, valid: 1361 (98.91), unique: 1064 (78.18), Similarity: 0.228
+Epoch: 221 / 450, loss: 0.061, Total: 1376, valid: 1359 (98.76), unique: 1069 (78.66), Similarity: 0.226
+Epoch: 222 / 450, loss: 0.061, Total: 1376, valid: 1358 (98.69), unique: 1072 (78.94), Similarity: 0.226
+Epoch: 223 / 450, loss: 0.061, Total: 1376, valid: 1356 (98.55), unique: 1076 (79.35), Similarity: 0.235
+Epoch: 224 / 450, loss: 0.061, Total: 1376, valid: 1364 (99.13), unique: 1070 (78.45), Similarity: 0.225
+Epoch: 225 / 450, loss: 0.061, Total: 1376, valid: 1367 (99.35), unique: 1060 (77.54), Similarity: 0.226
+Epoch: 226 / 450, loss: 0.061, Total: 1376, valid: 1363 (99.06), unique: 1081 (79.31), Similarity: 0.225
+Epoch: 227 / 450, loss: 0.061, Total: 1376, valid: 1362 (98.98), unique: 1100 (80.76), Similarity: 0.222
+Epoch: 228 / 450, loss: 0.061, Total: 1376, valid: 1357 (98.62), unique: 1087 (80.10), Similarity: 0.225
+Epoch: 229 / 450, loss: 0.062, Total: 1376, valid: 1358 (98.69), unique: 1061 (78.13), Similarity: 0.229
+Epoch: 230 / 450, loss: 0.062, Total: 1376, valid: 1367 (99.35), unique: 1083 (79.22), Similarity: 0.227
+Epoch: 231 / 450, loss: 0.060, Total: 1376, valid: 1363 (99.06), unique: 1064 (78.06), Similarity: 0.224
+Epoch: 232 / 450, loss: 0.061, Total: 1376, valid: 1360 (98.84), unique: 1077 (79.19), Similarity: 0.224
+Epoch: 233 / 450, loss: 0.060, Total: 1376, valid: 1362 (98.98), unique: 1081 (79.37), Similarity: 0.230
+Epoch: 234 / 450, loss: 0.060, Total: 1376, valid: 1366 (99.27), unique: 1071 (78.40), Similarity: 0.223
+Epoch: 235 / 450, loss: 0.060, Total: 1376, valid: 1364 (99.13), unique: 1109 (81.30), Similarity: 0.223
+Epoch: 236 / 450, loss: 0.060, Total: 1376, valid: 1366 (99.27), unique: 1071 (78.40), Similarity: 0.224
+Epoch: 237 / 450, loss: 0.060, Total: 1376, valid: 1363 (99.06), unique: 1069 (78.43), Similarity: 0.227
+Epoch: 238 / 450, loss: 0.060, Total: 1376, valid: 1363 (99.06), unique: 1089 (79.90), Similarity: 0.222
+Epoch: 239 / 450, loss: 0.059, Total: 1376, valid: 1366 (99.27), unique: 1084 (79.36), Similarity: 0.226
+Epoch: 240 / 450, loss: 0.060, Total: 1376, valid: 1361 (98.91), unique: 1081 (79.43), Similarity: 0.232
+Epoch: 241 / 450, loss: 0.061, Total: 1376, valid: 1346 (97.82), unique: 1072 (79.64), Similarity: 0.224
+Epoch: 242 / 450, loss: 0.065, Total: 1376, valid: 1363 (99.06), unique: 1095 (80.34), Similarity: 0.223
+Epoch: 243 / 450, loss: 0.061, Total: 1376, valid: 1364 (99.13), unique: 1084 (79.47), Similarity: 0.229
+Epoch: 244 / 450, loss: 0.059, Total: 1376, valid: 1364 (99.13), unique: 1087 (79.69), Similarity: 0.223
+Epoch: 245 / 450, loss: 0.059, Total: 1376, valid: 1363 (99.06), unique: 1105 (81.07), Similarity: 0.221
+Epoch: 246 / 450, loss: 0.059, Total: 1376, valid: 1363 (99.06), unique: 1077 (79.02), Similarity: 0.219
+Epoch: 247 / 450, loss: 0.058, Total: 1376, valid: 1365 (99.20), unique: 1080 (79.12), Similarity: 0.231
+Epoch: 248 / 450, loss: 0.058, Total: 1376, valid: 1364 (99.13), unique: 1071 (78.52), Similarity: 0.227
+Epoch: 249 / 450, loss: 0.058, Total: 1376, valid: 1364 (99.13), unique: 1087 (79.69), Similarity: 0.229
+Epoch: 250 / 450, loss: 0.058, Total: 1376, valid: 1373 (99.78), unique: 1082 (78.81), Similarity: 0.229
+Epoch: 251 / 450, loss: 0.059, Total: 1376, valid: 1362 (98.98), unique: 1090 (80.03), Similarity: 0.232
+Epoch: 252 / 450, loss: 0.059, Total: 1376, valid: 1365 (99.20), unique: 1062 (77.80), Similarity: 0.229
+Epoch: 253 / 450, loss: 0.059, Total: 1376, valid: 1367 (99.35), unique: 1094 (80.03), Similarity: 0.226
+Epoch: 254 / 450, loss: 0.058, Total: 1376, valid: 1373 (99.78), unique: 1081 (78.73), Similarity: 0.231
+Epoch: 255 / 450, loss: 0.058, Total: 1376, valid: 1365 (99.20), unique: 1078 (78.97), Similarity: 0.226
+Epoch: 256 / 450, loss: 0.058, Total: 1376, valid: 1363 (99.06), unique: 1085 (79.60), Similarity: 0.233
+Epoch: 257 / 450, loss: 0.058, Total: 1376, valid: 1363 (99.06), unique: 1090 (79.97), Similarity: 0.228
+Epoch: 258 / 450, loss: 0.058, Total: 1376, valid: 1360 (98.84), unique: 1075 (79.04), Similarity: 0.231
+Epoch: 259 / 450, loss: 0.058, Total: 1376, valid: 1362 (98.98), unique: 1058 (77.68), Similarity: 0.231
+Epoch: 260 / 450, loss: 0.058, Total: 1376, valid: 1362 (98.98), unique: 1074 (78.85), Similarity: 0.226
+Epoch: 261 / 450, loss: 0.058, Total: 1376, valid: 1365 (99.20), unique: 1070 (78.39), Similarity: 0.233
+Epoch: 262 / 450, loss: 0.058, Total: 1376, valid: 1366 (99.27), unique: 1088 (79.65), Similarity: 0.232
+Epoch: 263 / 450, loss: 0.057, Total: 1376, valid: 1367 (99.35), unique: 1062 (77.69), Similarity: 0.228
+Epoch: 264 / 450, loss: 0.058, Total: 1376, valid: 1367 (99.35), unique: 1075 (78.64), Similarity: 0.229
+Epoch: 265 / 450, loss: 0.058, Total: 1376, valid: 1361 (98.91), unique: 1094 (80.38), Similarity: 0.228
+Epoch: 266 / 450, loss: 0.058, Total: 1376, valid: 1361 (98.91), unique: 1083 (79.57), Similarity: 0.234
+Epoch: 267 / 450, loss: 0.057, Total: 1376, valid: 1364 (99.13), unique: 1067 (78.23), Similarity: 0.222
+Epoch: 268 / 450, loss: 0.058, Total: 1376, valid: 1364 (99.13), unique: 1080 (79.18), Similarity: 0.228
+Epoch: 269 / 450, loss: 0.057, Total: 1376, valid: 1362 (98.98), unique: 1068 (78.41), Similarity: 0.232
+Epoch: 270 / 450, loss: 0.057, Total: 1376, valid: 1358 (98.69), unique: 1093 (80.49), Similarity: 0.228
+Epoch: 271 / 450, loss: 0.057, Total: 1376, valid: 1364 (99.13), unique: 1080 (79.18), Similarity: 0.232
+Epoch: 272 / 450, loss: 0.057, Total: 1376, valid: 1364 (99.13), unique: 1090 (79.91), Similarity: 0.227
+Epoch: 273 / 450, loss: 0.057, Total: 1376, valid: 1362 (98.98), unique: 1084 (79.59), Similarity: 0.226
+Epoch: 274 / 450, loss: 0.057, Total: 1376, valid: 1365 (99.20), unique: 1102 (80.73), Similarity: 0.224
+Epoch: 275 / 450, loss: 0.058, Total: 1376, valid: 1361 (98.91), unique: 1095 (80.46), Similarity: 0.224
+Epoch: 276 / 450, loss: 0.058, Total: 1376, valid: 1359 (98.76), unique: 1118 (82.27), Similarity: 0.225
+Epoch: 277 / 450, loss: 0.057, Total: 1376, valid: 1364 (99.13), unique: 1082 (79.33), Similarity: 0.230
+Epoch: 278 / 450, loss: 0.057, Total: 1376, valid: 1369 (99.49), unique: 1078 (78.74), Similarity: 0.226
+Epoch: 279 / 450, loss: 0.056, Total: 1376, valid: 1372 (99.71), unique: 1101 (80.25), Similarity: 0.234
+Epoch: 280 / 450, loss: 0.056, Total: 1376, valid: 1365 (99.20), unique: 1086 (79.56), Similarity: 0.226
+Epoch: 281 / 450, loss: 0.056, Total: 1376, valid: 1369 (99.49), unique: 1080 (78.89), Similarity: 0.224
+Epoch: 282 / 450, loss: 0.057, Total: 1376, valid: 1361 (98.91), unique: 1069 (78.55), Similarity: 0.229
+Epoch: 283 / 450, loss: 0.056, Total: 1376, valid: 1365 (99.20), unique: 1061 (77.73), Similarity: 0.231
+Epoch: 284 / 450, loss: 0.056, Total: 1376, valid: 1362 (98.98), unique: 1079 (79.22), Similarity: 0.238
+Epoch: 285 / 450, loss: 0.056, Total: 1376, valid: 1366 (99.27), unique: 1075 (78.70), Similarity: 0.231
+Epoch: 286 / 450, loss: 0.056, Total: 1376, valid: 1363 (99.06), unique: 1072 (78.65), Similarity: 0.234
+Epoch: 287 / 450, loss: 0.056, Total: 1376, valid: 1365 (99.20), unique: 1057 (77.44), Similarity: 0.235
+Epoch: 288 / 450, loss: 0.056, Total: 1376, valid: 1361 (98.91), unique: 1051 (77.22), Similarity: 0.229
+Epoch: 289 / 450, loss: 0.056, Total: 1376, valid: 1370 (99.56), unique: 1080 (78.83), Similarity: 0.231
+Epoch: 290 / 450, loss: 0.056, Total: 1376, valid: 1362 (98.98), unique: 1084 (79.59), Similarity: 0.234
+Epoch: 291 / 450, loss: 0.056, Total: 1376, valid: 1366 (99.27), unique: 1070 (78.33), Similarity: 0.229
+Epoch: 292 / 450, loss: 0.056, Total: 1376, valid: 1369 (99.49), unique: 1090 (79.62), Similarity: 0.230
+Epoch: 293 / 450, loss: 0.056, Total: 1376, valid: 1365 (99.20), unique: 1091 (79.93), Similarity: 0.235
+Epoch: 294 / 450, loss: 0.056, Total: 1376, valid: 1364 (99.13), unique: 1082 (79.33), Similarity: 0.230
+Epoch: 295 / 450, loss: 0.056, Total: 1376, valid: 1351 (98.18), unique: 1074 (79.50), Similarity: 0.227
+Epoch: 296 / 450, loss: 0.058, Total: 1376, valid: 1360 (98.84), unique: 1084 (79.71), Similarity: 0.228
+Epoch: 297 / 450, loss: 0.057, Total: 1376, valid: 1363 (99.06), unique: 1087 (79.75), Similarity: 0.236
+Epoch: 298 / 450, loss: 0.056, Total: 1376, valid: 1367 (99.35), unique: 1094 (80.03), Similarity: 0.229
+Epoch: 299 / 450, loss: 0.056, Total: 1376, valid: 1362 (98.98), unique: 1063 (78.05), Similarity: 0.227
+Epoch: 300 / 450, loss: 0.058, Total: 1376, valid: 1367 (99.35), unique: 1074 (78.57), Similarity: 0.225
+==================================================
+Trained GxRNN is saved in results/saved_gxrnn.pkl_300.pkl
+Epoch: 301 / 450, loss: 0.056, Total: 1376, valid: 1364 (99.13), unique: 1075 (78.81), Similarity: 0.229
+Epoch: 302 / 450, loss: 0.056, Total: 1376, valid: 1367 (99.35), unique: 1086 (79.44), Similarity: 0.223
+Epoch: 303 / 450, loss: 0.055, Total: 1376, valid: 1369 (99.49), unique: 1098 (80.20), Similarity: 0.232
+Epoch: 304 / 450, loss: 0.055, Total: 1376, valid: 1368 (99.42), unique: 1051 (76.83), Similarity: 0.236
+Epoch: 305 / 450, loss: 0.055, Total: 1376, valid: 1369 (99.49), unique: 1073 (78.38), Similarity: 0.238
+Epoch: 306 / 450, loss: 0.055, Total: 1376, valid: 1361 (98.91), unique: 1099 (80.75), Similarity: 0.229
+Epoch: 307 / 450, loss: 0.055, Total: 1376, valid: 1364 (99.13), unique: 1076 (78.89), Similarity: 0.228
+Epoch: 308 / 450, loss: 0.054, Total: 1376, valid: 1363 (99.06), unique: 1083 (79.46), Similarity: 0.231
+Epoch: 309 / 450, loss: 0.055, Total: 1376, valid: 1366 (99.27), unique: 1063 (77.82), Similarity: 0.229
+Epoch: 310 / 450, loss: 0.056, Total: 1376, valid: 1354 (98.40), unique: 1092 (80.65), Similarity: 0.233
+Epoch: 311 / 450, loss: 0.056, Total: 1376, valid: 1367 (99.35), unique: 1050 (76.81), Similarity: 0.227
+Epoch: 312 / 450, loss: 0.055, Total: 1376, valid: 1364 (99.13), unique: 1074 (78.74), Similarity: 0.232
+Epoch: 313 / 450, loss: 0.055, Total: 1376, valid: 1369 (99.49), unique: 1087 (79.40), Similarity: 0.229
+Epoch: 314 / 450, loss: 0.054, Total: 1376, valid: 1364 (99.13), unique: 1095 (80.28), Similarity: 0.234
+Epoch: 315 / 450, loss: 0.054, Total: 1376, valid: 1366 (99.27), unique: 1110 (81.26), Similarity: 0.234
+Epoch: 316 / 450, loss: 0.054, Total: 1376, valid: 1369 (99.49), unique: 1095 (79.99), Similarity: 0.229
+Epoch: 317 / 450, loss: 0.054, Total: 1376, valid: 1360 (98.84), unique: 1069 (78.60), Similarity: 0.233
+Epoch: 318 / 450, loss: 0.054, Total: 1376, valid: 1368 (99.42), unique: 1090 (79.68), Similarity: 0.225
+Epoch: 319 / 450, loss: 0.054, Total: 1376, valid: 1365 (99.20), unique: 1085 (79.49), Similarity: 0.229
+Epoch: 320 / 450, loss: 0.054, Total: 1376, valid: 1371 (99.64), unique: 1096 (79.94), Similarity: 0.234
+Epoch: 321 / 450, loss: 0.054, Total: 1376, valid: 1363 (99.06), unique: 1057 (77.55), Similarity: 0.232
+Epoch: 322 / 450, loss: 0.054, Total: 1376, valid: 1363 (99.06), unique: 1077 (79.02), Similarity: 0.227
+Epoch: 323 / 450, loss: 0.054, Total: 1376, valid: 1360 (98.84), unique: 1063 (78.16), Similarity: 0.231
+Epoch: 324 / 450, loss: 0.054, Total: 1376, valid: 1364 (99.13), unique: 1069 (78.37), Similarity: 0.230
+Epoch: 325 / 450, loss: 0.054, Total: 1376, valid: 1364 (99.13), unique: 1072 (78.59), Similarity: 0.232
+Epoch: 326 / 450, loss: 0.055, Total: 1376, valid: 1363 (99.06), unique: 1072 (78.65), Similarity: 0.231
+Epoch: 327 / 450, loss: 0.055, Total: 1376, valid: 1364 (99.13), unique: 1069 (78.37), Similarity: 0.233
+Epoch: 328 / 450, loss: 0.055, Total: 1376, valid: 1364 (99.13), unique: 1067 (78.23), Similarity: 0.232
+Epoch: 329 / 450, loss: 0.054, Total: 1376, valid: 1364 (99.13), unique: 1054 (77.27), Similarity: 0.236
+Epoch: 330 / 450, loss: 0.054, Total: 1376, valid: 1368 (99.42), unique: 1082 (79.09), Similarity: 0.234
+Epoch: 331 / 450, loss: 0.054, Total: 1376, valid: 1363 (99.06), unique: 1072 (78.65), Similarity: 0.232
+Epoch: 332 / 450, loss: 0.054, Total: 1376, valid: 1360 (98.84), unique: 1069 (78.60), Similarity: 0.233
+Epoch: 333 / 450, loss: 0.053, Total: 1376, valid: 1366 (99.27), unique: 1076 (78.77), Similarity: 0.233
+Epoch: 334 / 450, loss: 0.053, Total: 1376, valid: 1365 (99.20), unique: 1081 (79.19), Similarity: 0.229
+Epoch: 335 / 450, loss: 0.054, Total: 1376, valid: 1367 (99.35), unique: 1098 (80.32), Similarity: 0.230
+Epoch: 336 / 450, loss: 0.053, Total: 1376, valid: 1369 (99.49), unique: 1087 (79.40), Similarity: 0.232
+Epoch: 337 / 450, loss: 0.053, Total: 1376, valid: 1364 (99.13), unique: 1077 (78.96), Similarity: 0.235
+Epoch: 338 / 450, loss: 0.053, Total: 1376, valid: 1365 (99.20), unique: 1092 (80.00), Similarity: 0.230
+Epoch: 339 / 450, loss: 0.053, Total: 1376, valid: 1366 (99.27), unique: 1086 (79.50), Similarity: 0.235
+Epoch: 340 / 450, loss: 0.053, Total: 1376, valid: 1367 (99.35), unique: 1102 (80.61), Similarity: 0.228
+Epoch: 341 / 450, loss: 0.053, Total: 1376, valid: 1369 (99.49), unique: 1086 (79.33), Similarity: 0.235
+Epoch: 342 / 450, loss: 0.053, Total: 1376, valid: 1367 (99.35), unique: 1077 (78.79), Similarity: 0.232
+Epoch: 343 / 450, loss: 0.053, Total: 1376, valid: 1361 (98.91), unique: 1075 (78.99), Similarity: 0.234
+Epoch: 344 / 450, loss: 0.054, Total: 1376, valid: 1366 (99.27), unique: 1055 (77.23), Similarity: 0.237
+Epoch: 345 / 450, loss: 0.053, Total: 1376, valid: 1362 (98.98), unique: 1058 (77.68), Similarity: 0.233
+Epoch: 346 / 450, loss: 0.053, Total: 1376, valid: 1364 (99.13), unique: 1081 (79.25), Similarity: 0.231
+Epoch: 347 / 450, loss: 0.053, Total: 1376, valid: 1366 (99.27), unique: 1079 (78.99), Similarity: 0.232
+Epoch: 348 / 450, loss: 0.053, Total: 1376, valid: 1369 (99.49), unique: 1070 (78.16), Similarity: 0.235
+Epoch: 349 / 450, loss: 0.052, Total: 1376, valid: 1366 (99.27), unique: 1085 (79.43), Similarity: 0.237
+Epoch: 350 / 450, loss: 0.052, Total: 1376, valid: 1365 (99.20), unique: 1068 (78.24), Similarity: 0.233
+Epoch: 351 / 450, loss: 0.053, Total: 1376, valid: 1366 (99.27), unique: 1066 (78.04), Similarity: 0.234
+Epoch: 352 / 450, loss: 0.052, Total: 1376, valid: 1365 (99.20), unique: 1079 (79.05), Similarity: 0.228
+Epoch: 353 / 450, loss: 0.053, Total: 1376, valid: 1369 (99.49), unique: 1075 (78.52), Similarity: 0.236
+Epoch: 354 / 450, loss: 0.053, Total: 1376, valid: 1370 (99.56), unique: 1087 (79.34), Similarity: 0.229
+Epoch: 355 / 450, loss: 0.053, Total: 1376, valid: 1368 (99.42), unique: 1074 (78.51), Similarity: 0.223
+Epoch: 356 / 450, loss: 0.053, Total: 1376, valid: 1363 (99.06), unique: 1093 (80.19), Similarity: 0.229
+Epoch: 357 / 450, loss: 0.053, Total: 1376, valid: 1367 (99.35), unique: 1085 (79.37), Similarity: 0.234
+Epoch: 358 / 450, loss: 0.052, Total: 1376, valid: 1370 (99.56), unique: 1093 (79.78), Similarity: 0.239
+Epoch: 359 / 450, loss: 0.054, Total: 1376, valid: 1360 (98.84), unique: 1078 (79.26), Similarity: 0.231
+Epoch: 360 / 450, loss: 0.053, Total: 1376, valid: 1365 (99.20), unique: 1062 (77.80), Similarity: 0.234
+Epoch: 361 / 450, loss: 0.053, Total: 1376, valid: 1364 (99.13), unique: 1093 (80.13), Similarity: 0.232
+Epoch: 362 / 450, loss: 0.052, Total: 1376, valid: 1368 (99.42), unique: 1077 (78.73), Similarity: 0.234
+Epoch: 363 / 450, loss: 0.052, Total: 1376, valid: 1364 (99.13), unique: 1068 (78.30), Similarity: 0.236
+Epoch: 364 / 450, loss: 0.052, Total: 1376, valid: 1368 (99.42), unique: 1075 (78.58), Similarity: 0.233
+Epoch: 365 / 450, loss: 0.052, Total: 1376, valid: 1370 (99.56), unique: 1081 (78.91), Similarity: 0.234
+Epoch: 366 / 450, loss: 0.052, Total: 1376, valid: 1368 (99.42), unique: 1067 (78.00), Similarity: 0.231
+Epoch: 367 / 450, loss: 0.052, Total: 1376, valid: 1366 (99.27), unique: 1073 (78.55), Similarity: 0.231
+Epoch: 368 / 450, loss: 0.051, Total: 1376, valid: 1366 (99.27), unique: 1059 (77.53), Similarity: 0.232
+Epoch: 369 / 450, loss: 0.052, Total: 1376, valid: 1364 (99.13), unique: 1070 (78.45), Similarity: 0.233
+Epoch: 370 / 450, loss: 0.051, Total: 1376, valid: 1362 (98.98), unique: 1083 (79.52), Similarity: 0.234
+Epoch: 371 / 450, loss: 0.052, Total: 1376, valid: 1368 (99.42), unique: 1087 (79.46), Similarity: 0.227
+Epoch: 372 / 450, loss: 0.052, Total: 1376, valid: 1364 (99.13), unique: 1056 (77.42), Similarity: 0.233
+Epoch: 373 / 450, loss: 0.052, Total: 1376, valid: 1366 (99.27), unique: 1088 (79.65), Similarity: 0.235
+Epoch: 374 / 450, loss: 0.051, Total: 1376, valid: 1366 (99.27), unique: 1063 (77.82), Similarity: 0.236
+Epoch: 375 / 450, loss: 0.051, Total: 1376, valid: 1361 (98.91), unique: 1054 (77.44), Similarity: 0.236
+Epoch: 376 / 450, loss: 0.052, Total: 1376, valid: 1369 (99.49), unique: 1094 (79.91), Similarity: 0.230
+Epoch: 377 / 450, loss: 0.052, Total: 1376, valid: 1370 (99.56), unique: 1079 (78.76), Similarity: 0.233
+Epoch: 378 / 450, loss: 0.051, Total: 1376, valid: 1366 (99.27), unique: 1077 (78.84), Similarity: 0.234
+Epoch: 379 / 450, loss: 0.051, Total: 1376, valid: 1368 (99.42), unique: 1069 (78.14), Similarity: 0.232
+Epoch: 380 / 450, loss: 0.052, Total: 1376, valid: 1361 (98.91), unique: 1079 (79.28), Similarity: 0.236
+Epoch: 381 / 450, loss: 0.052, Total: 1376, valid: 1360 (98.84), unique: 1079 (79.34), Similarity: 0.242
+Epoch: 382 / 450, loss: 0.052, Total: 1376, valid: 1364 (99.13), unique: 1078 (79.03), Similarity: 0.233
+Epoch: 383 / 450, loss: 0.051, Total: 1376, valid: 1361 (98.91), unique: 1062 (78.03), Similarity: 0.236
+Epoch: 384 / 450, loss: 0.052, Total: 1376, valid: 1367 (99.35), unique: 1065 (77.91), Similarity: 0.232
+Epoch: 385 / 450, loss: 0.052, Total: 1376, valid: 1369 (99.49), unique: 1068 (78.01), Similarity: 0.233
+Epoch: 386 / 450, loss: 0.054, Total: 1376, valid: 1344 (97.67), unique: 1110 (82.59), Similarity: 0.223
+Epoch: 387 / 450, loss: 0.063, Total: 1376, valid: 1363 (99.06), unique: 1095 (80.34), Similarity: 0.226
+Epoch: 388 / 450, loss: 0.056, Total: 1376, valid: 1364 (99.13), unique: 1089 (79.84), Similarity: 0.234
+Epoch: 389 / 450, loss: 0.053, Total: 1376, valid: 1363 (99.06), unique: 1068 (78.36), Similarity: 0.230
+Epoch: 390 / 450, loss: 0.052, Total: 1376, valid: 1363 (99.06), unique: 1085 (79.60), Similarity: 0.228
+Epoch: 391 / 450, loss: 0.051, Total: 1376, valid: 1367 (99.35), unique: 1069 (78.20), Similarity: 0.233
+Epoch: 392 / 450, loss: 0.050, Total: 1376, valid: 1367 (99.35), unique: 1079 (78.93), Similarity: 0.229
+Epoch: 393 / 450, loss: 0.050, Total: 1376, valid: 1362 (98.98), unique: 1082 (79.44), Similarity: 0.234
+Epoch: 394 / 450, loss: 0.050, Total: 1376, valid: 1369 (99.49), unique: 1070 (78.16), Similarity: 0.234
+Epoch: 395 / 450, loss: 0.052, Total: 1376, valid: 1357 (98.62), unique: 1071 (78.92), Similarity: 0.232
+Epoch: 396 / 450, loss: 0.053, Total: 1376, valid: 1361 (98.91), unique: 1065 (78.25), Similarity: 0.241
+Epoch: 397 / 450, loss: 0.051, Total: 1376, valid: 1363 (99.06), unique: 1068 (78.36), Similarity: 0.231
+Epoch: 398 / 450, loss: 0.051, Total: 1376, valid: 1364 (99.13), unique: 1087 (79.69), Similarity: 0.229
+Epoch: 399 / 450, loss: 0.051, Total: 1376, valid: 1366 (99.27), unique: 1087 (79.58), Similarity: 0.234
+Epoch: 400 / 450, loss: 0.050, Total: 1376, valid: 1364 (99.13), unique: 1074 (78.74), Similarity: 0.234
+Epoch: 401 / 450, loss: 0.049, Total: 1376, valid: 1368 (99.42), unique: 1080 (78.95), Similarity: 0.238
+Epoch: 402 / 450, loss: 0.049, Total: 1376, valid: 1371 (99.64), unique: 1064 (77.61), Similarity: 0.228
+Epoch: 403 / 450, loss: 0.049, Total: 1376, valid: 1366 (99.27), unique: 1084 (79.36), Similarity: 0.236
+Epoch: 404 / 450, loss: 0.049, Total: 1376, valid: 1365 (99.20), unique: 1093 (80.07), Similarity: 0.229
+Epoch: 405 / 450, loss: 0.049, Total: 1376, valid: 1364 (99.13), unique: 1080 (79.18), Similarity: 0.237
+Epoch: 406 / 450, loss: 0.049, Total: 1376, valid: 1368 (99.42), unique: 1044 (76.32), Similarity: 0.232
+Epoch: 407 / 450, loss: 0.049, Total: 1376, valid: 1368 (99.42), unique: 1081 (79.02), Similarity: 0.247
+Epoch: 408 / 450, loss: 0.053, Total: 1376, valid: 1363 (99.06), unique: 1065 (78.14), Similarity: 0.233
+Epoch: 409 / 450, loss: 0.051, Total: 1376, valid: 1365 (99.20), unique: 1073 (78.61), Similarity: 0.240
+Epoch: 410 / 450, loss: 0.050, Total: 1376, valid: 1367 (99.35), unique: 1072 (78.42), Similarity: 0.234
+Epoch: 411 / 450, loss: 0.050, Total: 1376, valid: 1368 (99.42), unique: 1081 (79.02), Similarity: 0.235
+Epoch: 412 / 450, loss: 0.050, Total: 1376, valid: 1371 (99.64), unique: 1086 (79.21), Similarity: 0.238
+Epoch: 413 / 450, loss: 0.050, Total: 1376, valid: 1359 (98.76), unique: 1073 (78.96), Similarity: 0.233
+Epoch: 414 / 450, loss: 0.050, Total: 1376, valid: 1371 (99.64), unique: 1085 (79.14), Similarity: 0.234
+Epoch: 415 / 450, loss: 0.050, Total: 1376, valid: 1366 (99.27), unique: 1070 (78.33), Similarity: 0.237
+Epoch: 416 / 450, loss: 0.051, Total: 1376, valid: 1365 (99.20), unique: 1062 (77.80), Similarity: 0.233
+Epoch: 417 / 450, loss: 0.051, Total: 1376, valid: 1363 (99.06), unique: 1084 (79.53), Similarity: 0.243
+Epoch: 418 / 450, loss: 0.050, Total: 1376, valid: 1371 (99.64), unique: 1088 (79.36), Similarity: 0.232
+Epoch: 419 / 450, loss: 0.050, Total: 1376, valid: 1366 (99.27), unique: 1062 (77.75), Similarity: 0.231
+Epoch: 420 / 450, loss: 0.050, Total: 1376, valid: 1368 (99.42), unique: 1059 (77.41), Similarity: 0.237
+Epoch: 421 / 450, loss: 0.050, Total: 1376, valid: 1365 (99.20), unique: 1066 (78.10), Similarity: 0.234
+Epoch: 422 / 450, loss: 0.050, Total: 1376, valid: 1363 (99.06), unique: 1075 (78.87), Similarity: 0.240
+Epoch: 423 / 450, loss: 0.050, Total: 1376, valid: 1361 (98.91), unique: 1079 (79.28), Similarity: 0.233
+Epoch: 424 / 450, loss: 0.050, Total: 1376, valid: 1362 (98.98), unique: 1069 (78.49), Similarity: 0.235
+Epoch: 425 / 450, loss: 0.050, Total: 1376, valid: 1364 (99.13), unique: 1063 (77.93), Similarity: 0.245
+Epoch: 426 / 450, loss: 0.050, Total: 1376, valid: 1363 (99.06), unique: 1062 (77.92), Similarity: 0.234
+Epoch: 427 / 450, loss: 0.050, Total: 1376, valid: 1366 (99.27), unique: 1069 (78.26), Similarity: 0.232
+Epoch: 428 / 450, loss: 0.050, Total: 1376, valid: 1364 (99.13), unique: 1061 (77.79), Similarity: 0.237
+Epoch: 429 / 450, loss: 0.050, Total: 1376, valid: 1362 (98.98), unique: 1049 (77.02), Similarity: 0.231
+Epoch: 430 / 450, loss: 0.050, Total: 1376, valid: 1360 (98.84), unique: 1091 (80.22), Similarity: 0.231
+Epoch: 431 / 450, loss: 0.050, Total: 1376, valid: 1363 (99.06), unique: 1055 (77.40), Similarity: 0.242
+Epoch: 432 / 450, loss: 0.052, Total: 1376, valid: 1366 (99.27), unique: 1103 (80.75), Similarity: 0.239
+Epoch: 433 / 450, loss: 0.052, Total: 1376, valid: 1365 (99.20), unique: 1081 (79.19), Similarity: 0.238
+Epoch: 434 / 450, loss: 0.051, Total: 1376, valid: 1358 (98.69), unique: 1082 (79.68), Similarity: 0.228
+Epoch: 435 / 450, loss: 0.050, Total: 1376, valid: 1360 (98.84), unique: 1067 (78.46), Similarity: 0.233
+Epoch: 436 / 450, loss: 0.050, Total: 1376, valid: 1369 (99.49), unique: 1078 (78.74), Similarity: 0.234
+Epoch: 437 / 450, loss: 0.050, Total: 1376, valid: 1368 (99.42), unique: 1090 (79.68), Similarity: 0.230
+Epoch: 438 / 450, loss: 0.050, Total: 1376, valid: 1369 (99.49), unique: 1063 (77.65), Similarity: 0.231
+Epoch: 439 / 450, loss: 0.050, Total: 1376, valid: 1365 (99.20), unique: 1061 (77.73), Similarity: 0.232
+Epoch: 440 / 450, loss: 0.050, Total: 1376, valid: 1365 (99.20), unique: 1057 (77.44), Similarity: 0.235
+Epoch: 441 / 450, loss: 0.050, Total: 1376, valid: 1360 (98.84), unique: 1074 (78.97), Similarity: 0.228
+Epoch: 442 / 450, loss: 0.050, Total: 1376, valid: 1358 (98.69), unique: 1079 (79.46), Similarity: 0.232
+Epoch: 443 / 450, loss: 0.050, Total: 1376, valid: 1371 (99.64), unique: 1067 (77.83), Similarity: 0.224
+Epoch: 444 / 450, loss: 0.050, Total: 1376, valid: 1367 (99.35), unique: 1068 (78.13), Similarity: 0.237
+Epoch: 445 / 450, loss: 0.050, Total: 1376, valid: 1364 (99.13), unique: 1104 (80.94), Similarity: 0.231
+Epoch: 446 / 450, loss: 0.050, Total: 1376, valid: 1365 (99.20), unique: 1077 (78.90), Similarity: 0.236
+Epoch: 447 / 450, loss: 0.050, Total: 1376, valid: 1368 (99.42), unique: 1090 (79.68), Similarity: 0.235
+Epoch: 448 / 450, loss: 0.049, Total: 1376, valid: 1360 (98.84), unique: 1077 (79.19), Similarity: 0.242
+Epoch: 449 / 450, loss: 0.050, Total: 1376, valid: 1364 (99.13), unique: 1091 (79.99), Similarity: 0.241
+Epoch: 450 / 450, loss: 0.049, Total: 1376, valid: 1366 (99.27), unique: 1056 (77.31), Similarity: 0.233
+==================================================
+Trained GxRNN is saved in results/saved_gxrnn.pkl_450.pkl
+Job completed at: Tue Oct 21 20:13:15 +08 2025
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-21 20:13:17.374860:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 12128452.pbs101
+	Project: personal-e1519778
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(16), Used(16)
+	CPU Time Used: 02:25:28
+	Memory: Requested(110gb), Used(1316256kb)
+	Vmem Used: 28212600kb
+	Walltime: Requested(02:00:00), Used(01:42:02)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1000c0s6b0n0:ncpus=16:ngpus=1:mem=115343360kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.7hrs
+	GPU Power Consumed: 125.04W
+	GPU Max GPU Memory Used: 2.08GB
+	Memory Throughput Rate (Average): x1000c0s6b0n0:(gpu1:20%)
+	Memory Throughput Rate (Max): x1000c0s6b0n0:(gpu1:37%)
+	Memory Throughput Rate (Min): x1000c0s6b0n0:(gpu1:0%)
+	GPU SM Utilization (Average): x1000c0s6b0n0:(gpu1:30%)
+	GPU SM Utilization (Max): x1000c0s6b0n0:(gpu1:44%)
+	GPU SM Utilization (Min): x1000c0s6b0n0:(gpu1:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: None
+GPU application profile: Medium
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

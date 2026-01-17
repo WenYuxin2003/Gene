@@ -1,0 +1,61 @@
+Sun Oct 26 13:24:52 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.154.05             Driver Version: 535.154.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:81:00.0 Off |                    0 |
+| N/A   47C    P0              61W / 400W |      0MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+2.1.0+cu121 True
+
+
+Other Hyperparameter Information:
+==================================================
+RANDOM_SEEDS:   1000
+PROTEIN_NAME:   SMAD3
+SOURCE_PATH:   datasets/ligands/source_
+GEN_PATH:   results/generation/
+candidate_num:   50
+==================================================
+Job completed at: Sun Oct 26 13:31:43 +08 2025
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-26 13:31:45.379340:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 12172087.pbs101
+	Project: personal-e1519778
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(16), Used(16)
+	CPU Time Used: 00:01:24
+	Memory: Requested(110gb), Used(865628kb)
+	Vmem Used: 12541668kb
+	Walltime: Requested(02:00:00), Used(00:06:53)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1000c0s7b0n0:ncpus=16:ngpus=1:mem=115343360kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 6.91mins
+	GPU Power Consumed: 64.09W
+	GPU Max GPU Memory Used: 818.0MB
+	Memory Throughput Rate (Average): x1000c0s7b0n0:(gpu2:1%)
+	Memory Throughput Rate (Max): x1000c0s7b0n0:(gpu2:11%)
+	Memory Throughput Rate (Min): x1000c0s7b0n0:(gpu2:0%)
+	GPU SM Utilization (Average): x1000c0s7b0n0:(gpu2:5%)
+	GPU SM Utilization (Max): x1000c0s7b0n0:(gpu2:33%)
+	GPU SM Utilization (Min): x1000c0s7b0n0:(gpu2:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: None
+GPU application profile: Low
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

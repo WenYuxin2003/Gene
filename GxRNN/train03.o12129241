@@ -1,0 +1,55 @@
+Tue Oct 21 21:00:35 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.154.05             Driver Version: 535.154.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:41:00.0 Off |                    0 |
+| N/A   43C    P0              54W / 400W |      0MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+2.1.0+cu121 True
+protein name: AKT1
+Source ligand: O=C(Nc1cccc(Nc2nccc(Nc3cccc(C(F)(F)F)c3)n2)c1)C1CC1
+Best generation: C1=CC=C(C=C1)NC2=NC=CC(=N2)NC3=CC=CC(=C3)C(F)(F)F
+Tanimoto similarity: 0.6538461538461539
+Job completed at: Tue Oct 21 21:06:50 +08 2025
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-21 21:06:51.868260:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 12129241.pbs101
+	Project: personal-e1519778
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(16), Used(16)
+	CPU Time Used: 00:01:09
+	Memory: Requested(110gb), Used(821420kb)
+	Vmem Used: 6181180kb
+	Walltime: Requested(02:00:00), Used(00:06:17)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1000c1s0b0n0:ncpus=16:ngpus=1:mem=115343360kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 6.3mins
+	GPU Power Consumed: 53.26W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): x1000c1s0b0n0:(gpu1:0%)
+	Memory Throughput Rate (Max): x1000c1s0b0n0:(gpu1:0%)
+	Memory Throughput Rate (Min): x1000c1s0b0n0:(gpu1:0%)
+	GPU SM Utilization (Average): x1000c1s0b0n0:(gpu1:0%)
+	GPU SM Utilization (Max): x1000c1s0b0n0:(gpu1:0%)
+	GPU SM Utilization (Min): x1000c1s0b0n0:(gpu1:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

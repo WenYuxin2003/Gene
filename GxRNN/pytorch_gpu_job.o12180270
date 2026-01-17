@@ -1,0 +1,79 @@
+Sun Oct 26 22:48:51 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.154.05             Driver Version: 535.154.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:03:00.0 Off |                    0 |
+| N/A   46C    P0              61W / 400W |      0MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+2.1.0+cu121 True
+📘 Loading dataset & tokenizer ...
+📦 Loading trained model from results/saved_gxrnn.pkl_450.pkl ...
+
+🚀 Generating molecules for train set ...
+✅ train 集生成完成: 12286 个合法分子
+📁 生成分子保存到: results/generated_train_from_pkl.csv
+📁 原始分子保存到: results/original_train_smiles.csv
+示例前5个生成分子:
+                                                    SMILES
+COc1ccccc1CNC(=O)CC1CC2c3cc(NC(=O)c4cccnc4)ccc3OC2C(CO)O1
+    CC1CC2C(C(O)CC3(C)C2CCC3(O)C(=O)CO)C2(C)C=CC(=O)C=C12
+               Oc1ccc(CSc2nnc(-c3ccccc3)n2-c2ccccc2)cc1Cl
+          CCOC(=O)N(C)CC1OCc2cn(nn2)CCCC(=O)N(C(C)CO)CC1C
+                     CCC=CCC=CCC=CCC=CCC=CCCCCCCCCCC(=O)O
+
+🚀 Generating molecules for valid set ...
+✅ valid 集生成完成: 1359 个合法分子
+📁 生成分子保存到: results/generated_valid_from_pkl.csv
+📁 原始分子保存到: results/original_valid_smiles.csv
+示例前5个生成分子:
+                                                            SMILES
+         O=C(CC1CC2c3cc(NC(=O)Nc4ccccc4F)ccc3OC2C(CO)O1)NC1CCCCC1
+                                        Cc1ccc(C(=O)Nc2ccccn2)cc1
+COC(CN(C)S(=O)(=O)c1ccc(C)cc1)C(C)CN(C(C)CO)S(=O)(=O)c1cccc(Cl)c1
+                            CCCc1c(OCCCCc2nn[nH]n2)ccc(C(C)=O)c1O
+                                   O=C(O)Cn1c(=O)[nH]c2ccccc2c1=O
+
+🎉 训练集与验证集生成与原始分子导出完成。
+Job completed at: Sun Oct 26 22:49:30 +08 2025
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-26 22:49:31.639566:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 12180270.pbs101
+	Project: personal-e1519778
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(16), Used(16)
+	CPU Time Used: 00:00:47
+	Memory: Requested(110gb), Used(1103424kb)
+	Vmem Used: 24883744kb
+	Walltime: Requested(02:00:00), Used(00:00:42)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1000c0s3b0n0:ncpus=16:ngpus=1:mem=115343360kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 42.72secs
+	GPU Power Consumed: 70.9W
+	GPU Max GPU Memory Used: 1.09GB
+	Memory Throughput Rate (Average): x1000c0s3b0n0:(gpu0:4%)
+	Memory Throughput Rate (Max): x1000c0s3b0n0:(gpu0:9%)
+	Memory Throughput Rate (Min): x1000c0s3b0n0:(gpu0:0%)
+	GPU SM Utilization (Average): x1000c0s3b0n0:(gpu0:12%)
+	GPU SM Utilization (Max): x1000c0s3b0n0:(gpu0:32%)
+	GPU SM Utilization (Min): x1000c0s3b0n0:(gpu0:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: None
+GPU application profile: Low
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

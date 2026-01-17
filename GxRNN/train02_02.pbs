@@ -1,0 +1,29 @@
+#!/bin/bash
+#PBS -N pytorch_gpu_job
+#PBS -l select=1:ncpus=16:ngpus=1:mem=110gb
+#PBS -l walltime=02:00:00
+#PBS -P personal-e1519778
+#PBS -j oe
+
+# **加载模块**
+module purge
+module load miniforge3
+
+# **激活 Conda 环境**
+conda activate gxrnn
+
+# **打印 GPU 信息**
+nvidia-smi
+python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
+
+# **执行训练代码**
+cd $PBS_O_WORKDIR
+python main.py \
+  --generation \
+  --hidden_size 1024 \
+  --protein_name TP53 \
+  --saved_gxrnn results/saved_gxrnn.pkl_450.pkl
+
+
+# **任务完成时间**
+echo "Job completed at: $(date)"
