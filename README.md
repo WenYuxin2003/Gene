@@ -44,6 +44,4 @@ Gene Expression (978-dim)
 
 The proposed model is implemented in `xin4_GxRNNstar.py`, which contains the complete definition of the **GRRM-FiLM-LSTM** framework described in the paper.
 
-The module names used in the manuscript do not always exactly match the class or function names in the current implementation. These differences are purely nominal and do not affect the implemented functionality. The codebase will be further refactored in future updates to ensure full consistency with the paper’s module nomenclature.
-
 The PBS scripts are retained as a complete and reproducible record of the model execution commands, providing evidence of the authenticity of the implementation.(PBS commands supported by the National Supercomputing Centre, Singapore)
