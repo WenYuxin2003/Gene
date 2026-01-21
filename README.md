@@ -2,7 +2,7 @@
 This repository contains the official implementation of the paper:
 
 **Transcriptionally Controlled De Novo Molecular Generation through Hierarchical Gene Encoding and Adaptive Feature Modulation**
-Wen Yuxin, Nguyen Quoc Khanh Le*, Matthew Chin Heng Chua*
+Wen Yuxin,Tian Yi, Nguyen Quoc Khanh Le*, Matthew Chin Heng Chua*
 
 📄 *Manuscript  submitted*
 

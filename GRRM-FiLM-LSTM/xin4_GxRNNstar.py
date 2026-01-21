@@ -101,17 +101,8 @@ class Smiles_DataLoader(DataLoader):
 
 
 # ============================================================================
-# 改进的 STAR 模块：真正在基因维度做全局聚合
+# GRRM-1模块
 class ImprovedSTAR(nn.Module):
-    """
-    改进的 STAR 模块：
-    1. 在基因维度(num_genes)做 attention-like 聚合
-    2. 使用多头注意力机制增强表达能力
-    3. 残差连接 + LayerNorm 稳定训练
-
-    输入: [B, num_genes]
-    输出: [B, num_genes]
-    """
 
     def __init__(self, num_genes: int, d_core: int, num_heads: int = 4, dropout: float = 0.1):
         super().__init__()
@@ -119,16 +110,13 @@ class ImprovedSTAR(nn.Module):
         self.d_core = d_core
         self.num_heads = num_heads
 
-        # 多头注意力分支
         assert d_core % num_heads == 0, "d_core must be divisible by num_heads"
         self.head_dim = d_core // num_heads
 
-        # Query, Key, Value 投影
         self.q_proj = nn.Linear(num_genes, d_core)
         self.k_proj = nn.Linear(num_genes, d_core)
         self.v_proj = nn.Linear(num_genes, d_core)
 
-        # 输出投影
         self.out_proj = nn.Linear(d_core, num_genes)
 
         # FFN (Feed-Forward Network)
@@ -179,21 +167,17 @@ class ImprovedSTAR(nn.Module):
         out = self.out_proj(attn_output).squeeze(1)  # [B, num_genes]
         out = self.dropout(out)
 
-        # 第一个残差连接
         x = self.norm1(residual + out)
 
-        # FFN + 第二个残差连接
         ffn_out = self.ffn(x)
         x = self.norm2(x + ffn_out)
 
         return x  # [B, num_genes]
 
 
-# ============================================================================
-# 渐进式基因压缩模块
+# GRRM-2模块
 class ProgressiveGeneEncoder(nn.Module):
     """
-    渐进式压缩基因表达，减少信息丢失
     978 → 512 → 256 → gene_feature_dim
     """
 
@@ -228,12 +212,6 @@ class ProgressiveGeneEncoder(nn.Module):
 # ============================================================================
 # 改进的 FiLM 调制模块
 class AdaptiveFiLM(nn.Module):
-    """
-    改进的 FiLM 调制：
-    1. alpha 使用 tanh 而非 sigmoid，允许负调制
-    2. 门控机制控制调制强度
-    """
-
     def __init__(self, gene_dim: int, emb_dim: int):
         super().__init__()
 
@@ -269,17 +247,8 @@ class AdaptiveFiLM(nn.Module):
         return output
 
 
-# ============================================================================
-# 改进的 GxRNN 主模型
+# 主模型
 class GxRNN(nn.Module):
-    """
-    改进版 GxRNN：
-    1. 使用改进的 STAR 模块进行真正的全局基因聚合
-    2. 渐进式基因压缩，减少信息丢失
-    3. 改进的 FiLM 调制机制
-    4. 用基因信息初始化 LSTM 隐状态
-    5. 添加 L2 正则化和更多 Dropout
-    """
 
     def __init__(self, tokenizer, emb_size=128, hidden_size=256, gene_latent_size=978,
                  num_layers=3, dropout=0.2, star_core_dim=256, gene_feature_dim=256,
@@ -301,7 +270,7 @@ class GxRNN(nn.Module):
         )
         self.emb_dropout = nn.Dropout(dropout)
 
-        # 改进的 STAR 模块：在基因维度做全局聚合
+        # GRRM-1
         self.star = ImprovedSTAR(
             num_genes=gene_latent_size,
             d_core=star_core_dim,
@@ -309,14 +278,14 @@ class GxRNN(nn.Module):
             dropout=dropout
         )
 
-        # 渐进式基因编码器
+        # GRRM-2
         self.gene_encoder = ProgressiveGeneEncoder(
             input_dim=gene_latent_size,
             output_dim=gene_feature_dim,
             dropout=dropout
         )
 
-        # 改进的 FiLM 调制
+        # FiLM
         self.film = AdaptiveFiLM(gene_feature_dim, emb_size)
 
         # 基因特征到 LSTM 初始状态的投影
@@ -398,7 +367,6 @@ class GxRNN(nn.Module):
         return pred
 
     def step(self, x_t, gene_feat, h, c):
-        """单步生成"""
         emb = self.embedding(x_t)  # [B, 1, E]
         emb = self.emb_dropout(emb)
 
